@@ -1,12 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/**
- * main entry point
- *
- * Return:0
- */
 
+/**
+ * main - Prints if number is positive, zero or negative
+ *
+ * Return: Always (Success)
+ */
 int main(void)
 {
 	int n;
@@ -25,5 +25,6 @@ int main(void)
 	{
 		printf("%d is negative\n", n);
 	}
+
 	return (0);
 }
