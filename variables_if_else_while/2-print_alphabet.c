@@ -1,16 +1,17 @@
 #include <stdio.h>
-/* outputs the alphabet in order*/
-
-int main(void)
+/*
+ * main - loop that prints the alphabet in lowercase
+ *
+ * Return 0 (success)
+ */
+	int main(void)
 {
-	char letter; /*outputs every letter untill it stops at z*/
+	char letter;
 
 	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-
-	putchar(letter);
-
+		putchar(letter);
 	}
-putchar('\n');
-return (0);
+	putchar('\n');
+	return (0);
 }
