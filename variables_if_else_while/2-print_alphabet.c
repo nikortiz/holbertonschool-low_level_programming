@@ -1,17 +1,16 @@
 #include <stdio.h>
+/* outputs the alphabet in order*/
 
 int main(void)
 {
-    //declare a variable
-    char alphabet;
+	char letter;
 
-    for (alphabet = 'a'; alphabet <= 'z' ; alphabet++)
-    {
-        // print the value of the variable 
-        putchar(alphabet);
+	for (letter = 'a'; letter <= 'z'; letter++)
+	{
 
-    }
+	putchar(letter);
 
-    putchar('\n');
-    return (0);
+	}
+putchar('\n');
+return (0);
 }
