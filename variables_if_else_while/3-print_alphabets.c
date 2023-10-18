@@ -1,24 +1,18 @@
 #include <stdio.h>
 /**
  *main - entry point
- *
- *
- */
-int main(void) /*outputs the alphabet in lower and uppercase until Z and z*/
+*
+*/
+int main(void)
 {
-	char alphabet;
-	char alphaBet;
+	char abc;
 
-	printf("lower case character:\n");
-	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+	for (abc = 'a'; abc <= 'z'; abc++)
+		putchar(abc);
 
-	printf("upper case charater:\n");
-	for (alphaBet = 'A'; alphaBet <= 'Z'; alphaBet++)
-	{
-		putchar(alphabet);
-		putchar(alphaBet);
-	}
+	for (abc = 'A'; abc <= 'Z'; abc++)
+		putchar(abc);
+
 		putchar('\n');
 		return (0);
 }
-
