@@ -1,19 +1,22 @@
 #include <stdio.h>
 /**
+ *main - entry point
  *
- * outputs the alphabet in upper and lower case
  *
  */
 int main(void) /*outputs the alphabet in lower and uppercase until Z and z*/
 {
 	char alphabet;
-	char uAlpha;
+	char alphaBet;
 
+	printf("lower case character:\n");
 	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
-	for (uAlpha = 'A'; uAlpha <= 'Z'; uAlpha++)
+
+	printf("upper case charater:\n");
+	for (alphaBet = 'A'; alphaBet <= 'Z'; alphaBet++)
 	{
 		putchar(alphabet);
-		putchar(uAlpha);
+		putchar(alphaBet);
 	}
 		putchar('\n');
 		return (0);
