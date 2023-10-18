@@ -1,10 +1,10 @@
 #include <stdio.h>
-/*
- * main - loop that prints the alphabet in lowercase
+/**
+ * main - Entry Point
  *
- * Return 0 (success)
+ * Return: Always 0 (Success)
  */
-	int main(void)
+int main(void)
 {
 	char letter;
 
