@@ -3,7 +3,7 @@
 
 int main(void)
 {
-	char letter;
+	char letter; /*outputs every letter untill it stops at z*/
 
 	for (letter = 'a'; letter <= 'z'; letter++)
 	{
