@@ -1,18 +1,30 @@
 #include <stdio.h>
-/**
- *main - entry point
-*
-*/
+/*
+ * main - entry point
+ *
+ * Return 0 (Success)
+ */
 int main(void)
 {
-	char letter;
+/*     */
+char abc;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-		putchar(letter);
 
-	for (letter = 'A'; letter <= 'Z'; letter++)
-		putchar(letter);
+for (abc = 'a'; abc <= 'z'; abc++)
+{
+	putchar(abc);
+}
 
+
+
+for (abc = 'A'; abc <= 'Z'; abc++)
+{
+	putchar(abc);
+}
 		putchar('\n');
+
+
+
+
 		return (0);
 }
