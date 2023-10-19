@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * main - entry point
+ * main -outputs a loop for lower and upper case leters of the alphabet
  *
  * Return 0 (Success)
  */
