@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-/*     */
+/* outputs the alphabet in lower and upper case  */
 char abc;
 
 
