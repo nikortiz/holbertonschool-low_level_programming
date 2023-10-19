@@ -2,12 +2,10 @@
 /**
  * main - prints loop for lower and upper case alphabet
  *
- * Return Always (Success)
+ * Return: Always 0
  */
 int main(void)
 {
-	/*this is a for loop*/
-
 char abc;
 
 
