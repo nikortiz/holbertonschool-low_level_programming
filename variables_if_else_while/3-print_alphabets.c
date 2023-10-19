@@ -1,14 +1,11 @@
 #include <stdio.h>
 /**
- * main -Entry point
+ * main - prints loop for lower and upper case alphabet
  *
- * outputs loop for lower and upper case alphabet
- *
- * Return 0 (Success)
+ * Return Always (Success)
  */
 int main(void)
 {
-/* outputs the alphabet in lower and upper case  */
 char abc;
 
 
