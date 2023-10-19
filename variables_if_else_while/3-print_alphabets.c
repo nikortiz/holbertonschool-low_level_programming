@@ -6,6 +6,8 @@
  */
 int main(void)
 {
+	/*this is a for loop*/
+
 char abc;
 
 
