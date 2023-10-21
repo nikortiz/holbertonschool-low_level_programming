@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - outputs the abcs 10x
+ * main - prints the abcs 10 times
  *
  * Return: Always 0
  */
