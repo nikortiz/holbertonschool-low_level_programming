@@ -12,11 +12,11 @@ void print_alphabet_x10(void) /*prototype funcion*/
 
 	for (b = 1; b <= 10; b++)
 	{
-		for (a = 'a'; a <= 'z'; a++)
-		{
-			_putchar(a);
-		}
-			_putchar('\n');
+	for (a = 'a'; a <= 'z'; a++)
+	{
+		_putchar(a);
+	}
+		_putchar('\n');
 	}
 }
 
