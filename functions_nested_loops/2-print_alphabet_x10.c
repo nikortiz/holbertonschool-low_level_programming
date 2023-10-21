@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * main - loop that prints the abcs 10 times
+ * main - entry point
  *
  * Return: Always 0
  */
-void print_alphabet_x10(void) /*outputs abcs 10 times*/
+void print_alphabet_x10(void)
 {
 	char a;
 	int b;
