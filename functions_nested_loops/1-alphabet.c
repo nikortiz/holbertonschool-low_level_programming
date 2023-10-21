@@ -5,17 +5,17 @@
  *
  * Return: Always 0
  */
-void print_alphabet_x10(void){
-
-	char a;
-	int b;
-	
-	for (b = 1; b <= 10; b++)
+void print_alphabet_x1()
+{
+char c;
+int i = 0;
+while(i <= 9)
 	{
-		for (a = 'a'; a <= 'z'; a++)
-		{
-			_putchar(a);
-		}
+		for(c = 'a' ; c <= 'z'; c++)
+			{
+				_putchar(c);
+			}
 		_putchar('\n');
+		i++;
 	}
 }
