@@ -3,7 +3,6 @@
 /**
  * _isdigit - checks for digit 0-9
  * @c: char value evaluated
- *
  * return 1 - if the character is a digit,
  * return 0 - otherwise
  */
