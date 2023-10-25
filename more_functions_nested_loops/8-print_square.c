@@ -2,7 +2,7 @@
 
 /**
  * print_square - prints a square
- *@size -is to be evaluated
+ *@size - parameter
  *
  */
 
