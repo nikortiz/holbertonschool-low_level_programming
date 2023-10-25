@@ -32,12 +32,12 @@ else
 {
 printf("%d", num);
 }
-putchar(' ');
-}
 if (num != 100)
 {
-printf("\n");
+putchar(' ');
 }
+}
+printf("\n");
 return (0);
 
 }
