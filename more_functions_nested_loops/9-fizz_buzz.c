@@ -5,29 +5,36 @@
 *
 *Return: 0
 */
-int main(void)
-{
+
+
+int main(){
+
 int num;
-while (num++ < 100)
 
-if ((num % 3 == 0) && (num % 5 == 0))
+for (num = 1; num <= 100; num++){
+    
+ if ((num % 3) == 0 && (num % 5) == 0){
 printf("FizzBuzz");
+}
+else if (num % 3 == 0){
+    printf("Fizz");
 
-else if ((num % 3) == 0)
-printf("Fizz ");
+}
 
-else if ((num % 5) == 0)
-{
-if (num != 100)
-printf("Buzz ");
-
-else
+else if (num % 5 == 0){
+    
 printf("Buzz");
 }
 
-else
-printf("%d ", num);
+else {
+    printf("%d", num);
+    }
+putchar(' ');
+    
+}
 
-printf("\n");
-return (0);
+
+   return 0;
+
+
 }
