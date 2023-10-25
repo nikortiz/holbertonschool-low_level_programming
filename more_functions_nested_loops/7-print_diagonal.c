@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
- *
  * print_diagonal - prints diagonal lines
  * @n: input variable
  *
