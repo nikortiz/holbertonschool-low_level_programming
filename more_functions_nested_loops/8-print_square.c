@@ -2,13 +2,15 @@
 
 /**
  * print_square - prints a square
- *@size - parameter
+ *@size: parameter
  *
  */
 
 void print_square(int size)
 {
+
 int row1, col2;
+
 if (size > 0)
 {
 for (row1 = 0; row1 < size; row1++)
